@@ -1,0 +1,229 @@
+/* Подключение шрифтов */
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-RegularItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-ThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('../fonts/CeraPro-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cera Pro', sans-serif;
+}
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+header {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  border-bottom: 0.3px solid #46A358;
+  white-space: nowrap;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px; 
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 250px);
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+a.active{
+  border-bottom: 3px #2e7d32 solid;
+  font-weight: 700;
+}
+
+.login-btn {
+  display: inline-block;
+  vertical-align: middle;
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  white-space: nowrap;
+}
+
+.login-btn img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 15px;
+  background-color: #f5f5f5;
+  white-space: normal;
+  position: relative;
+}
+
+.hero-text, .hero-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 55px;
+  font-weight: 900;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-text .description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.green-text {
+  color: #2e7d32;
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.shop-btn {
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  padding: 18px 36px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-image {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45%;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+

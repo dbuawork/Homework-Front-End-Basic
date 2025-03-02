@@ -221,3 +221,66 @@ a.shop-btn {
   display: inline-block;
 }
 
+.content {
+  overflow: hidden;
+}
+
+
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background: #f9f9f9;
+  float: left;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  color: #2e7d32;
+}
+
+.sale-banner {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.product-list {
+  width: 75%;
+  text-align: center;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
